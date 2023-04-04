@@ -1,35 +1,32 @@
 {
-    "name": "KNOMP",
-    "version": "1.0.0",
-    "description": "An extremely efficient, highly scalable, Knomp mining pool",
+    "name": "KawPoWNOMP",
+    "version": "1.1.5",
+    "description": "An extremely efficient, highly scalable, KawPoW algorithm mining pool",
     "keywords": [
         "stratum",
         "mining",
         "pool",
         "server",
         "poolserver",
-        "nomp",
+        "Ravencoin",
         "Sato",
         "Zelantus",
         "Splendidcoin",
-        "Knomp"
+        "KawPoW"
     ],
-    "homepage": "https://github.com/Zuz99/Knomp",
+    "homepage": "https://github.com/Satoex/kawpow-pool",
     "bugs": {
-        "url": "https://github.com/Zuz99/Knomp/issues"
+        "url": "https://github.com/Satoex/kawpow-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Zuz99",
+    "author": "Dirty Harry",
     "contributors": [
         "leshacat",
         "devnulled",
         "foxer666",
         "vekexasia",
         "TheSeven",
-        "Kris Klosterman",
-		"Dirty Harry"
-		"Alpha-X"
-		"Matthew Little"
+        "Kris Klosterman"
     ],
     "main": "init.js",
     "bin": {
@@ -37,7 +34,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Zuz99/Knomp.git"
+        "url": "https://github.com/Satoex/kawpow-pool.git"
     },
     "dependencies": {
         "3.npm": "^1.0.0",
@@ -66,13 +63,15 @@
         "ls": "^0.2.1",
         "mime-types": "^2.1.21",
         "moment": "^2.23.0",
+        "multi-hashing": "https://github.com/digvpn/multi-hashing",
         "mysql": "^2.16.0",
         "newrelic": "^5.1.0",
         "node-json-minify": "^1.0.0",
-        "merged-pool": "git+https://github.com/Zuz99/node-merged-pool.git",
-        "multi-hashing": "git+https://github.com/Zuz99/node-multi-hashing",
+        "node-merged-pool": "git://github.com/digvpn/node-merged-pool-nzs.git",
+        "node-multi-hashing": "*",
         "node-watch": "^0.5.9",
         "nonce": "^1.0.4",
+        "react-particles-webgl": "^1.0.10",
         "redis": "^2.8.0",
         "redis-commands": "^1.7.0",
         "request": "^2.88.0",
@@ -81,7 +80,8 @@
         "sha3": "^2.1.4",
         "sma": "^0.1.1",
         "sshpk": "^1.15.2",
-        "stratum-pool": "git+https://github.com/Zuz99/node-merged-pool.git",
+        "stratum-pool": "git+https://github.com/digvpn/node-stratum-pool.git",
+        "three": "^0.107.0",
         "winston": "^3.2.1",
         "winston-daily-rotate-file": "^3.5.1",
         "winston-transport": "^4.3.0"
